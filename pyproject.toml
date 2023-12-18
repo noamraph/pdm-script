@@ -10,7 +10,7 @@ requires-python = "==3.11.*"
 readme = "README.md"
 license = {text = "MIT"}
 
-[project.scripts]
+[tool.pdm.scripts]
 pdm-script = "pdm_script:main"
 
 [tool.pdm]
